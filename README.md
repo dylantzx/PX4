@@ -81,7 +81,7 @@ The command runs the script in a child terminal. If you want to run the script i
 ```
 source px4.sh
 ```
-2. When you run `rostopic list`, you should be able to see both gazebo and mavros topics
+2. When you run `rostopic list` in a separate terminal, you should be able to see both gazebo and mavros topics
 ```
 /clock
 /diagnostics
@@ -214,8 +214,32 @@ source px4.sh
 /tf
 /tf_static
 ```
+
+## Extra
+---
+**1. Terminator**
+
+To make live easier, you can install terminator, an alternative terminal with additional features and functionality
+
+To install, enter these commands:
+```
+sudo add-apt-repository ppa:gnome-terminator
+sudo apt-get update
+sudo apt-get install terminator
+```
+You can open terminator up with `ctrl + alt + t`
+
+To split into multiple terminals, use `ctrl + shift + o` or `ctrl + shift + o`
+
+When you have your desired layout, right click on any terminal, click on **Preferences**, Go to the Layouts tab, add new layout, rename as **default**, click save, then close.
+
+Restart terminator and you should have your desired layout upon startup
+
+
 ## References
 ---
-PX4 setup: http://docs.px4.io/master/en/dev_setup/dev_env_linux_ubuntu.html 
+PX4 setup: http://docs.px4.io/master/en/dev_setup/dev_env_linux_ubuntu.html
+
 QGroundControl: https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html
+
 Drone tutorials (Ardupilot): https://github.com/Intelligent-Quads/iq_tutorials

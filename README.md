@@ -29,6 +29,10 @@ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_
 bash ubuntu_sim_ros_melodic.sh
 ```
 3. Re-run step 2 to check if everything has been installed.
+4. Some of the MAVROS are not downloaded, so you have to run this extra command:
+```
+sudo apt-get install ros-melodic-mavros*
+```
 ## QGroundControl 
 ---
 When installing QGroundControl for the first time, you have to remove modem manager and grant permission to access the serial port. You also need to install GStreamer to allow video streaming.

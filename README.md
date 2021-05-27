@@ -239,7 +239,38 @@ When you have your desired layout, right click on any terminal, click on **Prefe
 
 Restart terminator and you should have your desired layout upon startup
 
+**2. Aliases**
 
+1. Go to the home directory and open up the .bashrc file
+```
+cd ~
+gedit .bashrc
+```
+2. Add the following aliases at the bottom of the file
+```
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ~="cd ~"
+alias src="source ~/.bashrc && cd ~/catkin_ws/src"
+alias px="cd ~/PX4"
+alias qgc="cd ~/PX4 && ./QGroundControl.AppImage"
+
+alias vs="gst-launch-1.0  -v udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' \
+! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink fps-update-interval=1000 sync=false"
+```
+3. Restart terminator
+
+**3. Visual Code Studio**
+
+You can download VCS so that you can edit/read/write codes more easily. To do so:
+1. Go to https://code.visualstudio.com/ and download vcs
+
+2. Go to the PX4 directory
+
+3. Install all workspace extension recommendations
+
+**Note: Do not install a newer version of Cmake as the correct version has already been installed**
 ## References
 ---
 PX4 setup: http://docs.px4.io/master/en/dev_setup/dev_env_linux_ubuntu.html

@@ -13,7 +13,8 @@
     <gui>
       <camera name="user_camera">
         <!-- x y z roll pitch yaw -->
-        <pose>-97.65 0.74 24.07 0 0.24 0.34</pose>
+        <!-- <pose>-97.65 0.74 24.07 0 0.24 0.34</pose> -->
+        <pose>-32.7 27.1 0.2 0 0.0 0.12</pose>
       </camera>
     </gui>
 

@@ -266,7 +266,7 @@ alias vs="gst-launch-1.0  -v udpsrc port=5600 caps='application/x-rtp, media=(st
 You can download VCS so that you can edit/read/write codes more easily. To do so:
 1. Go to https://code.visualstudio.com/ and download vcs
 
-2. Go to the PX4 directory
+2. Open the PX4/PX4-Autopilot folder
 
 3. Install all workspace extension recommendations
 

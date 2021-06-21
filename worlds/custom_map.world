@@ -9,12 +9,13 @@
 
     <!-- A ground plane -->
     <include>
-      <uri>model://ground_plane</uri>
+      <uri>model://winding_valley_heightmap</uri>
     </include>
 
     <gui>
       <camera name="user_camera">
-        <pose>-16 -5.5 3.9 0 0.0 0.12</pose>
+        <!-- <pose>-16 -5.5 3.9 0 0.0 0.12</pose> -->
+        <pose>-49.5 -4.6 3 0 0.0 0.12</pose>
       </camera>
     </gui>
     

@@ -12,6 +12,14 @@
       <uri>model://winding_valley_heightmap</uri>
     </include>
 
+    <scene>
+      <sky>
+        <clouds>
+          <speed>12</speed>
+        </clouds>
+      </sky>
+    </scene>
+
     <gui>
       <camera name="user_camera">
         <!-- <pose>-16 -5.5 3.9 0 0.0 0.12</pose> -->

@@ -10,4 +10,4 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 # roslaunch px4 mavros_posix_sitl.launch world:=$(pwd)/../worlds/hills.world x:=-25.7 y:=27 z:=-1.2
 # roslaunch px4 multi_uav_mavros_sitl.launch world:=$(pwd)/Tools/sitl_gazebo/worlds/sonoma_raceway.world
 # roslaunch px4 multi_uav_mavros_sitl.launch world:=$(pwd)/../worlds/custom_map.world
-roslaunch px4 mavros_posix_sitl.launch
+roslaunch px4 mavros_posix_sitl.launch vehicle:=typhoon_h480

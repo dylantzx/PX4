@@ -358,6 +358,15 @@ source px4.sh
 /uav1/mavros/wind_estimation
 ```
 
+## How to run QGroundControl
+---
+
+QGroundControl is a Ground Control Station software that allows you to send commands to the drone via a simple GUI. You can run it by opening a separate terminal and entering `cd ~/PX4 && ./QGroundControl.AppImage`
+
+It should look like this once you have successfully run PX4 and connected to the vehicles:
+
+![QGroundControl](images/qGroundControl.png)
+
 ## Extra
 ---
 **1. Terminator**
@@ -378,7 +387,7 @@ When you have your desired layout, right click on any terminal, click on **Prefe
 
 Restart terminator and you should have your desired layout upon startup
 
-![example](images/terminator.png)
+![terminator](images/terminator.png)
 
 **2. Aliases**
 

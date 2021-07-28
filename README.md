@@ -378,6 +378,8 @@ When you have your desired layout, right click on any terminal, click on **Prefe
 
 Restart terminator and you should have your desired layout upon startup
 
+![example](images/terminator.png)
+
 **2. Aliases**
 
 With aliases, you can run the programs quicker without having to type out the whole command. Here is how to add aliases:

@@ -450,8 +450,49 @@ You can download VCS so that you can edit/read/write codes more easily. To do so
 **Note: Do not install a newer version of Cmake as the correct version has already been installed**
 ## References
 ---
-PX4 setup: http://docs.px4.io/master/en/dev_setup/dev_env_linux_ubuntu.html
+PX4:
+- http://docs.px4.io/master/en/dev_setup/dev_env_linux_ubuntu.html
 
-QGroundControl: https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html
+- https://docs.px4.io/master/en/simulation/gazebo.html#typhoon_h480
 
-Drone tutorials (Ardupilot): https://github.com/Intelligent-Quads/iq_tutorials
+- https://docs.px4.io/master/en/advanced_config/parameter_reference.html#EKF2_HGT_MODE
+
+- https://discuss.px4.io/t/how-to-make-sonar-gazebo-plugin-publish-ros-topic/21630/3
+
+- https://docs.px4.io/master/en/modules/module_template.html
+
+- https://docs.px4.io/master/en/modules/hello_sky.html
+
+- https://github.com/PX4/PX4-Autopilot/pull/17531
+
+- https://github.com/PX4/PX4-Autopilot/issues/17473
+
+- https://discuss.px4.io/t/create-custom-model-for-sitl/6700/3
+
+QGroundControl:
+- https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html
+
+Drone tutorials (Ardupilot):
+- https://github.com/Intelligent-Quads/iq_tutorials
+
+ROS:
+- https://wiki.ros.org/urdf/XML/joint
+
+- https://wiki.ros.org/urdf/XML/link
+
+- https://wiki.ros.org/urdf/Tutorials/Create%20your%20own%20urdf%20file
+
+- https://www.cse.sc.edu/~jokane/agitr/agitr-letter-launch.pdf
+
+Gazebo:
+- http://gazebosim.org/tutorials/?tut=ros_urdf
+
+- https://answers.gazebosim.org//question/7148/how-to-save-sensor_msgsimage/
+
+- https://answers.gazebosim.org/question/7116/forcing-gazebo-to-render-at-fixed-intervals-or-how-to-record-a-video-of-a-simulation/
+
+Others:
+- https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
+
+- https://github.com/yanhwee/helium
+
